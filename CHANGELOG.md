@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.2...v1.0.3) (2020-11-18)
+
+
+### Bug Fixes
+
+* imports ([a235a6a](https://github.com/kpfromer/mdx-yaml-full/commit/a235a6a596b0fc0e75d49dc77da72117b4285870))
+
 ## [1.0.2](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.1...v1.0.2) (2020-11-18)
 
 
