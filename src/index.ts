@@ -1,11 +1,11 @@
 // plugins/mdx-yaml-full/index.js
 // from: https://github.com/gatsbyjs/gatsby/issues/21789
 
-import * as mdx from '@mdx-js/mdx';
+import mdx from '@mdx-js/mdx';
 import * as babel from '@babel/core';
-import * as BabelPluginPluckImports from 'gatsby-plugin-mdx/utils/babel-plugin-pluck-imports';
-import * as htmlAttrToJSXAttr from 'gatsby-plugin-mdx/utils/babel-plugin-html-attr-to-jsx-attr';
-import * as removeExportKeywords from 'gatsby-plugin-mdx/utils/babel-plugin-remove-export-keywords';
+import BabelPluginPluckImports from 'gatsby-plugin-mdx/utils/babel-plugin-pluck-imports';
+import htmlAttrToJSXAttr from 'gatsby-plugin-mdx/utils/babel-plugin-html-attr-to-jsx-attr';
+import removeExportKeywords from 'gatsby-plugin-mdx/utils/babel-plugin-remove-export-keywords';
 
 export = ({ node }, pluginOptions) => ({
   tag: '!mdx',
