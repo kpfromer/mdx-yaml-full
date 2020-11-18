@@ -4,6 +4,10 @@
 
 A plugin for `gatsby-transformer-yaml-full` to parse MDX strings into MDX.
 
+## Installation
+
+Run `npm install --save mdx-yaml-full` or `yarn add mdx-yaml-full`
+
 ## Configuration
 
 ```javascript
@@ -22,7 +26,7 @@ module.exports = {
 };
 ```
 
-## Usages
+## Usage
 
 **YAML File**:
 
@@ -70,6 +74,36 @@ Results in the following data:
 ```
 
 Where `content` can be piped into the `children` of the `MDXRenderer`!
+
+```jsx
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+
+const Example = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        allFileYaml {
+          nodes {
+            name
+            content
+          }
+        }
+      }
+    `
+  );
+
+  const { name, content } = data.allFileYaml.nodes[0];
+
+  return (
+    <>
+      <h1>{name}</h1>
+      <MDXRenderer>{content}</MDXRenderer>
+    </>
+  );
+};
+```
 
 ## License
 
