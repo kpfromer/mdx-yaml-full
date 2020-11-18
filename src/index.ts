@@ -7,7 +7,7 @@ import BabelPluginPluckImports from 'gatsby-plugin-mdx/utils/babel-plugin-pluck-
 import htmlAttrToJSXAttr from 'gatsby-plugin-mdx/utils/babel-plugin-html-attr-to-jsx-attr';
 import removeExportKeywords from 'gatsby-plugin-mdx/utils/babel-plugin-remove-export-keywords';
 
-export default ({ node }, pluginOptions) => ({
+export = ({ node }, pluginOptions) => ({
   tag: '!mdx',
   options: {
     kind: 'scalar',
@@ -16,6 +16,8 @@ export default ({ node }, pluginOptions) => ({
 
       // lifted straight from this section:
       // https://github.com/gatsbyjs/gatsby/blob/cd150b5e5264a5a75f2abc27e3430c55bfcd4e41/packages/gatsby-plugin-mdx/utils/gen-mdx.js#L138
+
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       const transformed = babel
         .transformSync(code, {
           plugins: [
