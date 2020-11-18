@@ -62,7 +62,7 @@
       "@semantic-release/changelog",
       "@semantic-release/git"
     ],
-    "branch": "main"
+    "branches": "main"
   },
   "config": {
     "commitizen": {
