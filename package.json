@@ -1,6 +1,6 @@
 {
   "name": "mdx-yaml-full",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MDX transformer for yaml content.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
