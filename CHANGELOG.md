@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.3...v1.0.4) (2020-11-18)
+
+
+### Bug Fixes
+
+* imports from js file and add readme ([0b5ed41](https://github.com/kpfromer/mdx-yaml-full/commit/0b5ed4105ff37f9193774a67cb432299b95505bd))
+
 ## [1.0.3](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.2...v1.0.3) (2020-11-18)
 
 
