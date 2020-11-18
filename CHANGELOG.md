@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.1...v1.0.2) (2020-11-18)
+
+
+### Bug Fixes
+
+* default export not allowed ([934e3a3](https://github.com/kpfromer/mdx-yaml-full/commit/934e3a31c9e489d1c6bee5ba9d8ac602e895da19))
+
 ## [1.0.1](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.0...v1.0.1) (2020-11-18)
 
 
