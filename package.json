@@ -28,6 +28,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@mdx-js/mdx": "^1.6.21",
