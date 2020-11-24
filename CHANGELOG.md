@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.4...v2.0.0) (2020-11-24)
+
+
+### Bug Fixes
+
+* update the babel code ([ba633e0](https://github.com/kpfromer/mdx-yaml-full/commit/ba633e0b572d7b562c3f1f7ddc42548d191fcd82))
+
+
+### BREAKING CHANGES
+
+* Changes the way you access the mdx content body.
+
 ## [1.0.4](https://github.com/kpfromer/mdx-yaml-full/compare/v1.0.3...v1.0.4) (2020-11-18)
 
 
